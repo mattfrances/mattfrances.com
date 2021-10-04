@@ -132,17 +132,30 @@ nav ul li a .avatarImg {
 .list-item-image {
   float: left;
   margin-right: 20px;
-  width: 60px;
 }
 
 .list-item-image img {
-  vertical-align: center;
   height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
 
 .list-item-text h4 {
   font-size: 20px;
   font-weight: 600;
+}
+
+/* Implement this later */
+/* .list-item:hover {
+  cursor: pointer;
+} */
+
+/* .list-item:hover a {
+  color: #0095FF;
+} */
+
+.list-item-text:hover a {
+  color: #0095FF
 }
 
 .list-item-text p {
@@ -151,13 +164,8 @@ nav ul li a .avatarImg {
 }
 
 .list-item-text a {
-  /* color: #0095FF; */
   color: #000;
   text-decoration: none;
-}
-
-.list-item-text a:hover {
-  color: #0095FF;
 }
 
 .project-description {
@@ -197,4 +205,3 @@ nav ul li a .avatarImg {
 .social-icons a:hover {
   color: #0095FF;
 }
-
