@@ -140,22 +140,17 @@ nav ul li a .avatarImg {
   object-fit: contain;
 }
 
+.list-item-image-fill {
+  height: 50px;
+  width: 50px;
+  background-color: #ECECEC;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
 .list-item-text h4 {
   font-size: 20px;
   font-weight: 600;
-}
-
-/* Implement this later */
-/* .list-item:hover {
-  cursor: pointer;
-} */
-
-/* .list-item:hover a {
-  color: #0095FF;
-} */
-
-.list-item-text:hover a {
-  color: #0095FF
 }
 
 .list-item-text p {
